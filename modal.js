@@ -14,4 +14,10 @@ window.onclick = function (event) {
     }
 }
 
-setTimeout(openModal, 100000)
+// setTimeout(openModal, 60000)
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      modal.style.display = "none";
+    }
+  });

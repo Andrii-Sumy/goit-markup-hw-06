@@ -584,7 +584,7 @@
       </div>
     </div>
   </footer>
-  <div class="backdrop" id="modalWindow">
+  <div class="backdrop is-open" id="modalWindow">
     <div class="modal">
       <button onclick="closeModal()" type="button" class="modal-close-btn">
         <svg class="modal-close-icon" width="8" height="8">
@@ -639,7 +639,7 @@
             </span>
           </label>
         </div>
-        <button type="submit" class="modal-btn">Send</button>
+        <button onclick="closeModal()" type="submit" class="modal-btn">Send</button>
       </form>
     </div>
   </div>
